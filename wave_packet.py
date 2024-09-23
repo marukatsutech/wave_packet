@@ -356,5 +356,5 @@ btn_play = tk.Button(root, text="Play/Pause", command=switch)
 btn_play.pack(side='left')
 
 # main loop
-anim = animation.FuncAnimation(fig, update, interval=200)
+anim = animation.FuncAnimation(fig, update, interval=200, save_count=100)
 root.mainloop()
